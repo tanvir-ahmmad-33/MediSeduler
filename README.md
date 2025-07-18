@@ -22,7 +22,7 @@ MediScheduler is a Laravel-based web application designed to streamline appointm
 ### 🛠️ Setup Steps
 1. Clone this repository:
     ```bash
-    git clone [https://github.com/your-username/your-portfolio.git](https://github.com/your-username/your-portfolio.git)
+    git clone [https://github.com/tanvir-ahmmad-33/MediSeduler]
     cd MediScheduler
     ```
 2. Install PHP Dependencies
