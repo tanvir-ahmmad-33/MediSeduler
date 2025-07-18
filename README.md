@@ -4,8 +4,8 @@ MediScheduler is a Laravel-based web application designed to streamline appointm
 
 ## ✨ Features
 
-        * Patients can request appointments.
-        * Receptionists can view and add appointments for patients.
-        * Doctors can manage appointments by performing CRUD operations (Create, Read, Update, Delete).
-        * Role-based access control (patients, receptionists, doctors) with different permissions.
-        * Simple and intuitive interface for managing appointments.
+-   **Patients can request appointments.**
+-   **Receptionists can view and add appointments for patients.**
+-   **Doctors can manage appointments by performing CRUD operations (Create, Read, Update, Delete).**
+-   **Role-based access control (patients, receptionists, doctors) with different permissions.**
+-   **Simple and intuitive interface for managing appointments.**
