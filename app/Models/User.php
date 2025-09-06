@@ -20,7 +20,9 @@ class User extends Authenticatable
     protected $fillable = [
         'name',
         'email',
+        'phone',
         'password',
+        'role',
     ];
 
     /**
@@ -42,4 +44,24 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
+
+    // Check if the user is doctor(bool)
+    public function isDoctor() {
+        return $this->role === 'doctor';
+    }
+
+    // Check if the user is staff(bool)
+    public function isStaff() {
+        return $this->role === 'staff';
+    }
+
+    // Check if the user is patient(bool)
+    public function isPatient() {
+        return $this->role === 'patient';
+    }
+
+    // Relationship: One user has many reports
+    public function report() {
+        return $this->hasMany(Report::class);
+    }
 }
